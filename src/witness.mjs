@@ -1,5 +1,5 @@
 import { resolve } from "node:path";
-import { createSemanticRecordJournal } from "@red-cup-engineering/computer-code-engineering-services-section/semiotic-eavt/record-semantic-record";
+import { createSemanticRecordJournal } from "@red-cup-engineering/semiotic-eavt-services-section/record-semantic-record";
 import { semanticIdOf } from "@red-cup-engineering/computer-content-engineering-services-section/semantic-content-identity";
 const KIND="brokerage.independent-witness-and-books.record", CATEGORY="brokerage.independent-witness-and-books";
 const semanticId = semanticIdOf(KIND);
