@@ -1,6 +1,6 @@
 import { resolve } from "node:path";
 import { createSemanticRecordJournal } from "@red-cup-engineering/computer-code-engineering-services-section/semiotic-eavt/record-semantic-record";
-import { semanticIdOf } from "@red-cup-engineering/computer-code-engineering-services-section/semiotic-expression-notation/semantic-content-identity";
+import { semanticIdOf } from "@red-cup-engineering/computer-content-engineering-services-section/semantic-content-identity";
 const KIND="brokerage.independent-witness-and-books.record", CATEGORY="brokerage.independent-witness-and-books";
 const semanticId = semanticIdOf(KIND);
 function journal(dataRoot){if(typeof dataRoot!=="string"||dataRoot.trim()==="")throw new Error("BROKERAGE_BOOKS_DATA_ROOT is required");return createSemanticRecordJournal({root:resolve(dataRoot),objectKind:KIND});}
