@@ -11,9 +11,9 @@
     "test": "node --test test/*.test.mjs"
   },
   "dependencies": {
-    "@red-cup-engineering/semiotic-eavt-services-section": "0.1.0",
-    "@red-cup-engineering/computer-content-engineering-services-section": "0.1.0",
-    "@red-cup-engineering/witness-journal-document-service": "0.1.0"
+    "@red-cup-engineering/semiotic-eavt-services-section": "workspace:*",
+    "@red-cup-engineering/computer-content-engineering-services-section": "workspace:*",
+    "@red-cup-engineering/witness-journal-document-service": "workspace:*"
   },
   "files": [
     "src",
