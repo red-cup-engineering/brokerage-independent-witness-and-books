@@ -12,8 +12,7 @@
   },
   "dependencies": {
     "@red-cup-engineering/semiotic-eavt-services-section": "workspace:*",
-    "@red-cup-engineering/computer-content-engineering-services-section": "workspace:*",
-    "@red-cup-engineering/witness-journal-document-service": "workspace:*"
+    "@red-cup-engineering/computer-content-engineering-services-section": "workspace:*"
   },
   "files": [
     "src",
