@@ -1,6 +1,6 @@
 {
   "name": "@red-cup-engineering/brokerage-independent-witness-and-books",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "type": "module",
   "exports": {
     ".": "./src/witness.mjs",
@@ -11,12 +11,13 @@
     "test": "node --test test/*.test.mjs"
   },
   "dependencies": {
-    "@red-cup-engineering/semiotic-eavt-services-section": "workspace:*",
-    "@red-cup-engineering/computer-content-address-engineering-services-section": "workspace:*"
+    "@red-cup-engineering/semiotic-eavt-services-section": "0.1.0",
+    "@red-cup-engineering/computer-content-address-engineering-services-section": "0.2.0"
   },
   "files": [
     "src",
     "data/"
   ],
-  "description": "brokerage-independent-witness-and-books sovereign enterprise"
+  "description": "brokerage-independent-witness-and-books sovereign enterprise",
+  "private": false
 }
