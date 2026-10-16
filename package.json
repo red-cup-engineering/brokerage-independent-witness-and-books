@@ -1,6 +1,6 @@
 {
   "name": "@red-cup-engineering/brokerage-independent-witness-and-books",
-  "version": "0.1.7",
+  "version": "0.1.8",
   "type": "module",
   "exports": {
     ".": "./src/witness.mjs",
@@ -12,7 +12,8 @@
   },
   "dependencies": {
     "@red-cup-engineering/semiotic-eavt-services-section": "0.1.0",
-    "@red-cup-engineering/computer-content-address-engineering-services-section": "0.2.0"
+    "@red-cup-engineering/computer-content-address-engineering-services-section": "0.2.0",
+    "@red-cup-engineering/computer-data-engineering-services-section": "0.2.0"
   },
   "files": [
     "src",
