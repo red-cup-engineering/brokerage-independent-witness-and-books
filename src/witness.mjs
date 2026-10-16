@@ -1,7 +1,7 @@
 import { resolve } from "node:path";
 import { has, put } from "@red-cup-engineering/semiotic-eavt-services-section/store";
 import { semanticId as addressOf } from "@red-cup-engineering/computer-content-address-engineering-services-section/semiotic-content-address";
-import { semanticIdOf } from "@red-cup-engineering/computer-content-address-engineering-services-section/semantic-content-identity";
+import { semanticIdOf } from "@red-cup-engineering/computer-data-engineering-services-section/semiotic-expression-notation/semantic-content-identity";
 const KIND="brokerage.independent-witness-and-books.record", TYPE="brokerage-independent-witness";
 const semanticId = semanticIdOf(KIND);
 function journal(dataRoot){if(typeof dataRoot!=="string"||dataRoot.trim()==="")throw new Error("BROKERAGE_BOOKS_DATA_ROOT is required");const root=resolve(dataRoot);return {has:(record)=>has(root,TYPE,addressOf(record)),put:(record)=>({id:put(root,TYPE,record)})};}
