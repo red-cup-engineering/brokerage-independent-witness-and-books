@@ -22,8 +22,7 @@
   "description": "brokerage-independent-witness-and-books sovereign enterprise",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/red-cup-engineering/prediction-market-engineering-services-section.git",
-    "directory": "services/brokerage-independent-witness-and-books"
+    "url": "git+https://github.com/red-cup-engineering/brokerage-independent-witness-and-books.git"
   },
   "private": false
 }
