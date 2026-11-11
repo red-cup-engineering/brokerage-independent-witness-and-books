@@ -1,5 +1,5 @@
 import { resolve } from "node:path";
-import { has, put } from "@red-cup-engineering/semiotic-eavt-services-section/store";
+import { has, put } from "@red-cup-engineering/semiotic-eavt-engineering-services-section/store";
 import { semanticId as addressOf } from "@red-cup-engineering/computer-content-address-engineering-services-section/semiotic-content-address";
 import { semanticIdOf } from "@red-cup-engineering/computer-data-engineering-services-section/semiotic-expression-notation/semantic-content-identity";
 const KIND="brokerage.independent-witness-and-books.record", TYPE="brokerage-independent-witness";
