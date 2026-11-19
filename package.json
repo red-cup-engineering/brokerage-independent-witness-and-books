@@ -1,0 +1,33 @@
+{
+  "name": "@red-cup-engineering/brokerage-independent-witness-and-books",
+  "version": "0.1.11-dev.0",
+  "type": "module",
+  "exports": {
+    ".": "./src/witness.mjs",
+    "./src/witness.mjs": "./src/witness.mjs"
+  },
+  "scripts": {
+    "check": "node --check src/witness.mjs"
+  },
+  "dependencies": {
+    "@red-cup-engineering/computer-code-engine": "^0.1.0",
+    "@red-cup-engineering/semiotic-eavt-engineering-services-section": "^0.6.0",
+    "@red-cup-engineering/computer-data-engineering-services-section": "^0.7.4",
+    "@red-cup-engineering/semiotic-content-address-system": "^0.1.5"
+  },
+  "files": [
+    "src",
+    "data/"
+  ],
+  "description": "brokerage-independent-witness-and-books sovereign enterprise",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/red-cup-engineering/brokerage-independent-witness-and-books.git"
+  },
+  "private": false,
+  "license": "MIT",
+  "funding": {
+    "type": "individual",
+    "url": "https://github.com/561-group/.github/blob/main/TIPS.md"
+  }
+}
